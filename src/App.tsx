@@ -1,29 +1,48 @@
-import { useState } from 'react'
-import './App.css'
-import reactLogo from './assets/react.svg'
+import { IonApp, IonIcon, IonLabel, IonRouterOutlet, IonTabBar, IonTabButton, IonTabs } from '@ionic/react'
+import { IonReactRouter } from '@ionic/react-router'
+import { ellipse, square, triangle } from 'ionicons/icons'
+import React from 'react'
+import { Redirect, Route } from 'react-router-dom'
+import Tab1 from './pages/Tab1'
+import Tab2 from './pages/Tab2'
+import Tab3 from './pages/Tab3'
 
-function App() {
-  const [count, setCount] = useState(0)
-
+const App: React.FC = () => {
   return (
-    <div className="App">
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src="/vite.svg" className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://reactjs.org" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>count is {count}</button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">Click on the Vite and React logos to learn more</p>
-    </div>
+    <IonApp>
+      <IonReactRouter>
+        <IonTabs>
+          <IonRouterOutlet>
+            <Route exact path="/tab1">
+              <Tab1 />
+            </Route>
+            <Route exact path="/tab2">
+              <Tab2 />
+            </Route>
+            <Route path="/tab3">
+              <Tab3 />
+            </Route>
+            <Route exact path="/">
+              <Redirect to="/tab1" />
+            </Route>
+          </IonRouterOutlet>
+          <IonTabBar slot="bottom">
+            <IonTabButton tab="tab1" href="/tab1">
+              <IonIcon icon={triangle} />
+              <IonLabel>Tab 1</IonLabel>
+            </IonTabButton>
+            <IonTabButton tab="tab2" href="/tab2">
+              <IonIcon icon={ellipse} />
+              <IonLabel>Tab 2</IonLabel>
+            </IonTabButton>
+            <IonTabButton tab="tab3" href="/tab3">
+              <IonIcon icon={square} />
+              <IonLabel>Tab 3</IonLabel>
+            </IonTabButton>
+          </IonTabBar>
+        </IonTabs>
+      </IonReactRouter>
+    </IonApp>
   )
 }
 
