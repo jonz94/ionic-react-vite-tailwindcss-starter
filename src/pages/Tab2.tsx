@@ -14,6 +14,10 @@ const Tab2: React.FC = () => {
             <IonTitle size="large">Tab 2</IonTitle>
           </IonToolbar>
         </IonHeader>
+
+        <div className="grid min-h-full place-content-center">
+          <h1>Hello, Tab 2!</h1>
+        </div>
       </IonContent>
     </IonPage>
   )
