@@ -1,4 +1,4 @@
-# Ionic React Vite Tailwind CSS Starter
+# Ionic + React + Vite + Tailwind CSS Starter
 
 ## Usage
 
