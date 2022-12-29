@@ -6,7 +6,8 @@
   "scripts": {
     "build": "tsc && vite build",
     "dev": "vite",
-    "fmt": "prettier --write .",
+    "fmt": "prettier --write . && npm run lint",
+    "lint": "eslint . --ext .cjs,.ts,.tsx --fix --ignore-path .gitignore",
     "preview": "vite preview"
   },
   "dependencies": {
@@ -23,8 +24,15 @@
     "@types/react-dom": "^18.0.10",
     "@types/react-router": "^5.1.20",
     "@types/react-router-dom": "^5.3.3",
+    "@typescript-eslint/eslint-plugin": "^5.47.1",
+    "@typescript-eslint/parser": "^5.47.1",
     "@vitejs/plugin-react": "^3.0.0",
     "autoprefixer": "^10.4.13",
+    "eslint": "^8.30.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.31.11",
+    "eslint-plugin-tailwindcss": "^3.7.1",
     "postcss": "^8.4.20",
     "prettier": "^2.8.1",
     "prettier-plugin-organize-imports": "^3.2.1",

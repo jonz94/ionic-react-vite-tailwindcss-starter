@@ -6,4 +6,13 @@ module.exports = {
   trailingComma: 'all',
   arrowParens: 'always',
   printWidth: 120,
+
+  overrides: [
+    {
+      files: '*.json',
+      options: {
+        printWidth: 80,
+      },
+    },
+  ],
 }
