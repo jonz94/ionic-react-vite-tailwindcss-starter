@@ -1,0 +1,21 @@
+{
+  // suppress "Unknown at rule @tailwind" warning message
+  "css.lint.unknownAtRules": "ignore",
+
+  // auto format when save (prettier + eslint)
+  "eslint.format.enable": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+
+  // eslint
+  "eslint.options": {
+    "extensions": [".ts", ".tsx"]
+  },
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ]
+}
