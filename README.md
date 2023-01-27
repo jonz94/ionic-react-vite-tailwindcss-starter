@@ -1,5 +1,7 @@
 # Ionic + React + Vite + Tailwind CSS Starter
 
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/jonz94/ionic-react-vite-tailwindcss-starter)
+
 ## Usage
 
 Use [`tiged`](https://github.com/tiged/tiged) to create project from this starter:
