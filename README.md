@@ -17,6 +17,7 @@ npx tiged@latest jonz94/ionic-react-vite-tailwindcss-starter new-ionic-project
 - [React](https://reactjs.org/)
 - [React Router v5](https://v5.reactrouter.com/)
 - [TypeScript](https://www.typescriptlang.org/)
+- [Vite](https://vitejs.dev/)
 - [Tailwind CSS](https://tailwindcss.com/)
 - [pnpm](https://pnpm.io/)
 - [ESLint](https://eslint.org/)
