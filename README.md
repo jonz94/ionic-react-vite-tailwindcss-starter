@@ -1,6 +1,7 @@
 # Ionic + React + Vite + Tailwind CSS Starter
 
 [![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/jonz94/ionic-react-vite-tailwindcss-starter)
+[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/s/github/jonz94/ionic-react-vite-tailwindcss-starter)
 
 ## Usage
 
