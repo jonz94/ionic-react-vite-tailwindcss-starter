@@ -17,7 +17,7 @@ specifiers:
   eslint-plugin-prettier: ^4.2.1
   eslint-plugin-react: ^7.32.1
   eslint-plugin-tailwindcss: ^3.8.0
-  ionicons: ^6.0.4
+  ionicons: ^6.1.1
   postcss: ^8.4.21
   prettier: ^2.8.3
   prettier-plugin-organize-imports: ^3.2.2
@@ -33,7 +33,7 @@ specifiers:
 dependencies:
   '@ionic/react': 6.5.1_biqbaboplfbrettd7655fr4n2y
   '@ionic/react-router': 6.5.1_lrmp3soklbeidbetlzp5p4lxwi
-  ionicons: 6.0.4
+  ionicons: 6.1.1
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
   react-router: 5.3.4_react@18.2.0
@@ -1766,12 +1766,6 @@ packages:
       has: 1.0.3
       side-channel: 1.0.4
     dev: true
-
-  /ionicons/6.0.4:
-    resolution: {integrity: sha512-uDNOkBo0OVYV+kIhb51g9mb7r3Z0b+78GPZQBsjXuaetNmrB/mNTqN/uFtO+vxL/rQySKjzk8qeKJI5NWL9Ueg==}
-    dependencies:
-      '@stencil/core': 2.20.0
-    dev: false
 
   /ionicons/6.1.1:
     resolution: {integrity: sha512-Qe6mx25DFNwA9UL1rhewI5StI3uD4+BqB2KdvLjyWhtvoUXwyAsmfHLZuDANAHQowIKtTt6BZCt5/g5NIQ635Q==}
