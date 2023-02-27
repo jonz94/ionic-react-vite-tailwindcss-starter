@@ -1,8 +1,8 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@ionic/react': ^6.5.4
-  '@ionic/react-router': ^6.5.4
+  '@ionic/react': ^6.5.6
+  '@ionic/react-router': ^6.5.6
   '@types/prettier': ^2.7.2
   '@types/react': ^18.0.28
   '@types/react-dom': ^18.0.11
@@ -31,8 +31,8 @@ specifiers:
   vite: ^4.1.2
 
 dependencies:
-  '@ionic/react': 6.5.4_biqbaboplfbrettd7655fr4n2y
-  '@ionic/react-router': 6.5.4_lrmp3soklbeidbetlzp5p4lxwi
+  '@ionic/react': 6.5.6_biqbaboplfbrettd7655fr4n2y
+  '@ionic/react-router': 6.5.6_lrmp3soklbeidbetlzp5p4lxwi
   ionicons: 6.1.3
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
@@ -541,23 +541,23 @@ packages:
     resolution: {integrity: sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==}
     dev: true
 
-  /@ionic/core/6.5.4:
-    resolution: {integrity: sha512-RHXoFRXOQl5o0COxlFfSfgAK8HZvmZ5Kd/YAORNzTqbm0W/bicUmbJf/oVUpWRnOl+R8sgGBUpOnwhTHl9jTag==}
+  /@ionic/core/6.5.6:
+    resolution: {integrity: sha512-Bi87GXW+pgeXijDWD/sLKLq9yQOxzQLg9+U5V684fZZoORv4KnV9Qosjq3LmRm+vH7VuQeU0OZ8ZU3OuDAlrDA==}
     dependencies:
       '@stencil/core': 2.20.0
       ionicons: 6.1.3
       tslib: 2.5.0
     dev: false
 
-  /@ionic/react-router/6.5.4_lrmp3soklbeidbetlzp5p4lxwi:
-    resolution: {integrity: sha512-zeB+i94Zgxb0YTJwjNBfNruv29+b+xEC0Cq4fP96x2e9EFs3IR7laITpRPBDo/XopcqiuTjVxZYDxrBf/3memw==}
+  /@ionic/react-router/6.5.6_lrmp3soklbeidbetlzp5p4lxwi:
+    resolution: {integrity: sha512-ncDWV4m2Ichu2XH+rRryUYU8HXn+tTmev5KlzehidXkPDA3Csky/2iCTrZFbDt1cEaA9T6x/v8FDdi7L6aueqw==}
     peerDependencies:
       react: '>=16.8.6'
       react-dom: '>=16.8.6'
       react-router: ^5.0.1
       react-router-dom: ^5.0.1
     dependencies:
-      '@ionic/react': 6.5.4_biqbaboplfbrettd7655fr4n2y
+      '@ionic/react': 6.5.6_biqbaboplfbrettd7655fr4n2y
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
       react-router: 5.3.4_react@18.2.0
@@ -565,13 +565,13 @@ packages:
       tslib: 2.5.0
     dev: false
 
-  /@ionic/react/6.5.4_biqbaboplfbrettd7655fr4n2y:
-    resolution: {integrity: sha512-qbZthi4CJ/1+F/SNjH+xRKx5aXF0/zdm3JhfOLb6C/1vQq95eV+xq+daGhUe9Gwg87Rvb0gRjsoKuMT8ghe57Q==}
+  /@ionic/react/6.5.6_biqbaboplfbrettd7655fr4n2y:
+    resolution: {integrity: sha512-EyoBpYSgavDp4zYhpRBmf7xLlc3ZqeeHjmmtoM//1cUXfq4MVkFf67A7wPXTKjXrGQarQNN0Lz2mYfh+UwMbzw==}
     peerDependencies:
       react: '>=16.8.6'
       react-dom: '>=16.8.6'
     dependencies:
-      '@ionic/core': 6.5.4
+      '@ionic/core': 6.5.6
       ionicons: 6.1.3
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
